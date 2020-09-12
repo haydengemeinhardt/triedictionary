@@ -2,13 +2,11 @@
         Author: Hayden Gemeinhardt
         Since: 7/6/2020
         trie.cpp
-        CSC 3102 Project #3
+        CSC 3102 Project #3 (Honors)
         Instructor: Dr. Shah
 
         Like last program, my narrative is distributed throughout
         comments in the code. I describe each function in a comment above.
-
-		Autocomplete implemented for honors
 */
 
 #include <iostream>
@@ -319,7 +317,7 @@ void main()
 //	string prefix = "t"; //for example
 	prefixQuery(root, prefix);
 	cout << endl << endl << "The word with the most frequent use for autocomplete is: ";
-	autoComplete(root, prefix); //for honors option code
+	autoComplete(root, prefix);
 }
 
 /*******************************************************************************/
