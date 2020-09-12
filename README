@@ -1,1 +1,3 @@
 The program is set up using a file containing words and their frequency. The professor and I tested using a small dictionary using definitions as well, but we excluded a large one to save on compile time. This can be easily optimized to work outside of reprocessing the file stream every time you compile. The file used is called "minidict_freq.txt".
+
+This means the functions used to implement the definitions is commented out, but it still works. It just requires some "cout" and "cin" lines for user interaction.
